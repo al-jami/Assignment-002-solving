@@ -1,0 +1,114 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header */
+
+/* navbar */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-link li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+}
+
+.nav-link img{
+    width: 20px;
+}
+
+
+/* header-banner */
+
+.header-banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-banner-container-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.header-banner-container{
+    max-width: 570px;
+    align-items: end;
+}
+
+.header-banner-container h1{
+    font-size: 4rem;
+}
+
+.header-banner-container p{
+    font-size: 1.3rem;
+
+}
+
+
+.header-banner-image img{
+    max-width: 100%;
+}
+
+
+
+/* shared style */
+
+/* for nav li a color & font */
+.font-01{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 600;
+}
+
+.font-02{
+    color: rgba(137, 135, 161, 1);
+    font-weight: 600;
+}
+
+.font-03{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
+
+
+/* for every paragraph */
+.font-04{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+
+
+.font-cl-01{
+    color: rgba(233, 90, 8, 1);
+}
