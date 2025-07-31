@@ -132,6 +132,38 @@
 
 
 
+.flower-plants-lover{
+    max-width:  1140px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.flower-plants-lover img{
+       width: 100%;
+       height: auto;
+       
+}
+
+.trusted-batch img{
+    width: 240px;
+    margin-top: -140px;
+    margin-left: -160px;
+    /* border:2px solid; */
+}
+
+.flower-plants-lover-desc-outer{
+      display: flex;
+      align-items: center;
+      /* border: 2px solid orange; */
+}
+
+.flower-plants-lover-desc{
+    max-width: 540px;
+    padding: 40px auto;
+    /* border: 2px solid black; */
+}
+
 
 /* shared style */
 
@@ -156,12 +188,12 @@
 .font-04{
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 
 .font-05{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
@@ -226,6 +258,22 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .trusted-batch{
+        display: none;
+    }
+
+    .flower-plants-lover{
+           flex-direction: column;
+           margin-top: 50px;
+           gap: 25px;
+    }
+
+    .flower-plants-lover h1{
+        font-size: 2.3rem;
+    }
+
+    
+    
 
 
    
