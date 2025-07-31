@@ -228,6 +228,113 @@
      
 }
 
+
+
+
+.colorful-bunch{
+    margin-top: 150px;
+    max-width: 100%;
+    height: 530px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorful-bunch h2{
+    color: white;
+}
+
+
+.subscribe-container {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.email-input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.subscribe-button {
+  padding: 15px 25px;
+  background-color: #e65100; 
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+
+/* footer */
+
+.footer{
+    max-width: 100%;
+    /* height: 350px; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+
+.footer-1{
+    width: 30vw;
+     /* border: 2px solid black; */
+}
+
+.footer-1 p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+   
+}
+
+.footer-2{
+    display: flex;
+    gap: 50px;
+    /* border: 2px solid black; */
+}
+
+.footer-2 h6{
+    color: rgba(107, 114, 128, 1);
+    font-size: 1.3rem;
+}
+
+.footer-2-1{
+       display: flex;
+       flex-direction: column;
+       gap: 50px;
+}
+
+
+
+
+.footer-logo{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+
+
+.footer-logo img{
+    width: 25px;
+    height: 25px;
+}
+
+
 /* shared style */
 
 /* for nav li a color & font */
@@ -265,6 +372,9 @@
 .font-cl-01{
     color: rgba(233, 90, 8, 1);
 }
+
+
+
 
 
 .margin-b-10{
@@ -350,6 +460,36 @@
 
    #box-2 a{
     font-size: 1rem;
+   }
+
+
+   .subscribe-container{
+       width: 90vw;
+   }
+   
+  
+
+   .colorful-bunch h2{
+           font-size: 1.5rem;
+   }
+
+   .footer-1{
+    width: 100%;
+   }
+   .footer{
+     padding: 50px auto;
+     flex-direction: column;
+     gap: 30px;
+     border: 2px solid black;
+   }
+
+   .footer-2{
+    flex-direction: column;
+    gap: 10px;
+   }
+
+   .footer-2-1{
+       gap: 10px;
    }
 
 
