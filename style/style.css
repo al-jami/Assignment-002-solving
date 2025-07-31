@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -20,6 +19,7 @@
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 30px;
+    /* border: 2px solid red; */
 }
 
 
@@ -50,34 +50,86 @@
 
 .header-banner{
     max-width: 1140px;
+    display: flex;
     margin: 0 auto;
-    display: flex;
+    /* border: 3px solid red; */
+    justify-content: space-between;
 }
 
-.header-banner-container-outer{
+.header-banner-cont-out{
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.header-banner-container{
-    max-width: 570px;
     align-items: end;
 }
 
+.header-banner-container{
+       max-width: 570px;
+       /* border: 2px solid black; */
+}
+
 .header-banner-container h1{
-    font-size: 4rem;
-}
 
-.header-banner-container p{
-    font-size: 1.3rem;
+    font-size: 3rem;
 
 }
 
-
-.header-banner-image img{
-    max-width: 100%;
+.header-banner-image{
+    max-width: 570px;
 }
+
+.header-banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* main */
+
+.our-plants{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+
+.our-plants-head{
+       max-width: 890px;
+       margin: 0 auto;
+}
+
+.our-plants-cont{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     row-gap: 30px;
+     column-gap: 20px;
+     justify-items: center;
+}
+
+.box{
+    max-width:270px;
+    max-height: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+.box button{
+    max-height: 50px;
+    padding: 8px 10px;
+    background-color: rgba(233, 90, 8, 1);
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+
 
 
 
@@ -108,7 +160,73 @@
 }
 
 
+.font-05{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
 
 .font-cl-01{
     color: rgba(233, 90, 8, 1);
+}
+
+
+.margin-b-10{
+    margin-bottom: 10px;
+}
+
+.margin-b-25{
+    margin-bottom: 25px;
+}
+
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 576px) {
+      
+    .li-1, .li-2, .li-3{
+        display: none;
+    }
+     
+
+    .nav {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .header-banner {
+        flex-direction: column-reverse;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .header-banner-container h1 {
+        font-size: 2rem;
+    }
+
+    .font-04 {
+        font-size: 1rem;
+    }
+    
+    
+    .our-plants{
+        margin: auto 10px;
+        margin-top: 70px;
+    }
+
+    .our-plants-cont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+   
 }
